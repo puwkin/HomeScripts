@@ -1,0 +1,200 @@
+http://192.168.2.1/goform/formReboot
+
+POST /goform/formReboot HTTP/1.1
+Host: 192.168.2.1
+Connection: keep-alive
+Content-Length: 38
+Cache-Control: max-age=0
+Authorization: Basic YWRtaW46QWxFeEFuZHJVczE5ODY=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://192.168.2.1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://192.168.2.1/tlreset.asp
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+reset_flag=0&submit-url=%2Ftlreset.aspHTTP/1.0 200 OK
+Server: GoAhead-Webs
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/html
+
+<html>
+<head>																							
+   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>                 
+	<script type='text/javascript' src ='/function.dat'></script>															
+	<script type='text/javascript' src ='/file/allasp-n.var'></script>														
+	<script type='text/javascript' src ='/javascript.js'></script>															
+	<script type='text/javascript' src ='/file/multilanguage.var'></script>															
+  <script>                                                                                                                                                                                             
+	if( typeof _MODUAL_NAME_	== 'undefined') _MODUAL_NAME_ =	'General';												
+	if( typeof _IS_GATEWAY_	== 'undefined') _IS_GATEWAY_ =	'y';												
+  if( _MODUAL_NAME_ == 'Sitecom' && _IS_GATEWAY_ == 'n' ) document.write('<link href="set.css" type="text/css" rel="stylesheet">');                                                              
+  else                                                    document.write('<link href="/set.css" type="text/css" rel="stylesheet">');                                                             
+  </script>                                                                                                                                                                                            
+</head><!--OK_MSG3-->																					
+<script>																						
+                                                                                                                                                                                                      
+	     if( _MODUAL_NAME_ == 'Sitecom' && _IS_GATEWAY_ =='y' ) document.write('<body bgcolor="white" LINK="#ffffff" VLINK="#ffffff" ALINK="#ffffff" leftmargin="0" topmargin="5">');  
+	else if( _MODUAL_NAME_ == 'Sitecom' && _IS_GATEWAY_ =='n' ) document.write('<body style="background-image:none;background-color:transparent;">');                                             
+	else if( _MODUAL_NAME_ == 'Sandberg' )                      document.write('<body class="background">');                                                                                      
+	else if( _MODUAL_NAME_ == 'Logitec' )                       document.write('<body class="background">');												
+	else if( _MODUAL_NAME_ == 'EdimaxEZ_CHN' )                  document.write('<body class="background">');   						              	
+	else if( _MODUAL_NAME_ == 'EdimaxEZ_EU' )                   document.write('<body class="background">');												
+	else if( _MODUAL_NAME_ == 'EdimaxEZ_IL' )                   document.write('<body class="background">');												
+	else if( _MODUAL_NAME_ == 'PCI_Japan' )                     document.write('<body class="background">');												
+   else if( _MODUAL_NAME_ == 'Hawking_RN1A' )                  document.write('<body>');																				
+   else if( _MODUAL_NAME_ == 'Hawking_REN1' )                  document.write('<body>');																				
+   else if( _MODUAL_NAME_ == 'Hawking_ABN1' )                  document.write('<body>');																				
+	else                                                        document.write('<body class="background">');												
+																					
+  if( _MODUAL_NAME_ == 'Hawking_RN1A' || _MODUAL_NAME_ == 'Hawking_REN1' || _MODUAL_NAME_ == 'Hawking_ABN1')                                                                                                                                                                
+  {                                                                                                                                                                                                    
+    Write_Header_Menu(0,0,"","");                                                                                                                                                            
+  }                                                                                                                                                                                                    
+  else                                                                                                                                                                                                    
+  {                                                                                                                                                                                                    
+    document.write('<blockquote>');       
+  }                                                                                                                                                                                                    
+</script>
+																					
+<h4><script>document.write(showText(sysrst));</script></h4>                                                                                                                                                              
+                                                                                                                                                                             
+	<form name="test">																				
+	<script>																					
+	if( '/tlreset.asp' != '' && (_MODUAL_NAME_ != 'DrayTek' || '/tlreset.asp' != '/mssid.asp') )																					
+	{																						
+		if( 0 == 1)																				
+		{																					
+			document.write('<input type=button name="okbutton" value="OK!" style="width:100px" OnClick=top.location.replace("/tlreset.asp")>');				
+		}																					
+		else																					
+		{																					
+			document.write('<input type=button name="okbutton" value="OK!" style="width:100px" OnClick=window.location.replace("/tlreset.asp")>');				
+		}																					
+	}																						
+	else																						
+	{																						
+		document.write('<input type=button name="okbutton" value="OK!" style="width:100px" OnClick=window.close()>');							
+	}																						
+	</script>																					
+	</form>																						
+   <script>
+  if( _MODUAL_NAME_ == 'Hawking_RN1A' || _MODUAL_NAME_ == 'Hawking_REN1' || _MODUAL_NAME_ == 'Hawking_ABN1' )                                                                                                                                                                
+  {                                                                                                                                                                                                    
+    Write_Footer_Menu();                                                                                                                                                              
+  }                                                                                                                                                                                                    
+  else                                                                                                                                                                                                 
+  {                                                                                                                                                                                                    
+   document.write('</blockquote>');																				
+  }                                                                                                                                                                                                    
+																					
+	if( _MODUAL_NAME_ == 'Sitecom' )	var secs = 20;																
+	else if( _MODUAL_NAME_ == 'Sandberg' )	var secs = 30;																
+	else if( _MODUAL_NAME_ == 'Logitec' )	var secs = 40;																
+	else if( _MODUAL_NAME_ == 'EdimaxEZ_CHN' || _MODUAL_NAME_ == 'EdimaxEZ_EU' || _MODUAL_NAME_ == 'EdimaxEZ_IL')	var secs = 47;																
+	else if( _MODUAL_NAME_ == 'PCI_Japan' )	var secs = 20;																
+	else if( _MODUAL_NAME_ == 'FreeNet' )	var secs = 25;																
+	else					var secs = 20;																
+																							
+	var wait = secs * 1000;																				
+																							
+	if( _MODUAL_NAME_ == 'Sitecom' )	document.test.okbutton.value = "OK!" + "(" + secs + ")";										
+	else if( _MODUAL_NAME_ == 'EdimaxEZ_CHN' || _MODUAL_NAME_ == 'EdimaxEZ_EU' || _MODUAL_NAME_ == 'EdimaxEZ_IL')	document.test.okbutton.value = secs + " " + showText(time_second);									
+	else if( _MODUAL_NAME_ == 'Sandberg' )	document.test.okbutton.value = showText(aspOK) + "(" + secs + ")"; 									
+	else if( _MODUAL_NAME_ == 'Logitec' )	document.test.okbutton.value = showText(aspOK) + "(" + secs + ")"; 									
+	else if( _MODUAL_NAME_ == 'PCI_Japan' )	document.test.okbutton.value = showText(aspOK) + "(" + secs + ")"; 									
+	else					document.test.okbutton.value = showText(aspOK) + " (" + secs + ")"; 									
+																							
+	document.test.okbutton.disabled = true;																		
+																							
+	for(i = 1; i <= secs; i++)	setTimeout("update(" + i + ")", i * 1000);													
+																							
+	setTimeout("timer()", wait);																			
+																							
+	function update(num, value)																			
+	{																						
+		if (num == (wait/1000))																			
+		{																					
+			if( _MODUAL_NAME_ == 'Sitecom' )	document.test.okbutton.value = "OK!";											
+			else if( _MODUAL_NAME_ == 'EdimaxEZ_CHN' || _MODUAL_NAME_ == 'EdimaxEZ_EU' || _MODUAL_NAME_ == 'EdimaxEZ_IL')	document.test.okbutton.value = showText(complete);									
+			else if( _MODUAL_NAME_ == 'Sandberg' )	document.test.okbutton.value = showText(aspOK); 									
+			else if( _MODUAL_NAME_ == 'Logitec' )	document.test.okbutton.value = showText(aspOK); 									
+			else if( _MODUAL_NAME_ == 'PCI_Japan' )	document.test.okbutton.value = showText(aspOK); 									
+			else					document.test.okbutton.value = showText(aspOK); 									
+		}																					
+		else																					
+		{																					
+			printnr = (wait / 1000)-num;																	
+			if( _MODUAL_NAME_ == 'Sitecom' )	document.test.okbutton.value = "OK!" + "(" + printnr + ")";							
+			else if( _MODUAL_NAME_ == 'EdimaxEZ_CHN' || _MODUAL_NAME_ == 'EdimaxEZ_EU' || _MODUAL_NAME_ == 'EdimaxEZ_IL')	document.test.okbutton.value = printnr + " " + showText(time_second);							
+			else if( _MODUAL_NAME_ == 'Sandberg' )	document.test.okbutton.value = showText(aspOK) + "(" + printnr + ")";						
+			else if( _MODUAL_NAME_ == 'Logitec' )	document.test.okbutton.value = showText(aspOK) + "(" + printnr + ")";						
+			else if( _MODUAL_NAME_ == 'PCI_Japan' )	document.test.okbutton.value = showText(aspOK) + "(" + printnr + ")";						
+			else					document.test.okbutton.value = showText(aspOK) + " (" + printnr + ")";						
+		}																					
+	}																						
+																							
+	function timer()																				
+	{																						
+		document.test.okbutton.disabled = false;																
+		if( _MODUAL_NAME_ == 'Sitecom' )	document.test.okbutton.value = "OK!";												
+		else if( _MODUAL_NAME_ == 'EdimaxEZ_CHN' || _MODUAL_NAME_ == 'EdimaxEZ_EU' || _MODUAL_NAME_ == 'EdimaxEZ_IL')	document.test.okbutton.value = showText(complete);										
+		else if( _MODUAL_NAME_ == 'Sandberg' )	document.test.okbutton.value = showText(aspOK);											
+		else if( _MODUAL_NAME_ == 'Logitec' )	document.test.okbutton.value = showText(aspOK);											
+		else if( _MODUAL_NAME_ == 'PCI_Japan' )	document.test.okbutton.value = showText(aspOK);											
+		else if( _MODUAL_NAME_ == 'FreeNet' )											
+		{																					
+			if('/tlreset.asp'=='/repeater_status.asp') window.location.replace("/repeater_status.asp");									
+			else document.test.okbutton.value = showText(aspOK);																					
+		}																					
+		else					document.test.okbutton.value = showText(aspOK);											
+	}																						
+</script>																						
+</body>																						
+</html>
+
+
+
+
+
+Frame 1125: 708 bytes on wire (5664 bits), 708 bytes captured (5664 bits) on interface 0
+Ethernet II, Src: Dell_8a:75:c8 (b8:ca:3a:8a:75:c8), Dst: EdimaxTe_b9:18:24 (00:1f:1f:b9:18:24)
+Internet Protocol Version 4, Src: 192.168.2.17, Dst: 192.168.2.1
+Transmission Control Protocol, Src Port: 65354 (65354), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 654
+Hypertext Transfer Protocol
+    POST /goform/formReboot HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /goform/formReboot HTTP/1.1\r\n]
+            [POST /goform/formReboot HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: POST
+        Request URI: /goform/formReboot
+        Request Version: HTTP/1.1
+    Host: 192.168.2.1\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 38\r\n
+        [Content length: 38]
+    Cache-Control: max-age=0\r\n
+    Authorization: Basic YWRtaW46QWxFeEFuZHJVczE5ODY=\r\n
+        Credentials: admin:AlExAndrUs1986
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n
+    Origin: http://192.168.2.1\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36\r\n
+    Content-Type: application/x-www-form-urlencoded\r\n
+    Referer: http://192.168.2.1/tlreset.asp\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4\r\n
+    \r\n
+    [Full request URI: http://192.168.2.1/goform/formReboot]
+    [HTTP request 1/1]
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "reset_flag" = "0"
+        Key: reset_flag
+        Value: 0
+    Form item: "submit-url" = "/tlreset.asp"
+        Key: submit-url
+        Value: /tlreset.asp
